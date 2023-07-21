@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    
+
+    
+
+
+    header{
+        background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+    header ul{
+        margin-right: 15px;
+        list-style: none;
+        display: flex;
+    }
+    header ul li{
+    padding-right: 10px;
+    
+    }
+    header ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    }
+    header h1 {
+        margin-left: 15px;
+    color: white;
+    
+    
+    }
+    .div12{
+        width: 400px;
+        height: 200px;
+        border: 12px solid silver;
+        background-image: url(1000.png);
+        background-size: cover;
+        
+       animation-name: photo ;
+       animation-delay: 4s;
+       animation-duration: 20s;
+       animation-iteration-count:infinite ;
+
+
+       
+    }
+        
+    @keyframes photo{
+    10%{background-image: url(1000.png);}
+    50%{background-image: url(2000.jpg);}
+    70%{background-image: url(3000.png);}
+    90%{background-image: url(b.jpg);}
+
+
+    
+    }
+
+    
+   
